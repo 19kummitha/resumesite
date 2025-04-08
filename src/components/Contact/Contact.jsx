@@ -32,10 +32,16 @@ export const Contact = () => {
           alignItems: isMobile ? "center" : "flex-start",
         }}
       >
-        <Typography variant="h2" sx={{ fontSize: "80px", fontWeight: 700, letterSpacing: "4px" }}>
+        <Typography
+          variant="h2"
+          sx={{ fontSize: "80px", fontWeight: 700, letterSpacing: "4px" }}
+        >
           Contact
         </Typography>
-        <Typography variant="body1" sx={{ fontSize: "40px", fontWeight: 400, letterSpacing: "2px" }}>
+        <Typography
+          variant="body1"
+          sx={{ fontSize: "40px", fontWeight: 400, letterSpacing: "2px" }}
+        >
           Feel free to reach out!
         </Typography>
       </Box>
@@ -64,14 +70,14 @@ export const Contact = () => {
               letterSpacing: "1.5px",
             }}
           >
-            myemail@email.com
+            venkatakoti18gmail.com
           </Link>
         </Stack>
 
         <Stack direction="row" alignItems="center" spacing={3} component="li">
           <img src={linkedinIcon} alt="LinkedIn icon" />
           <Link
-            href="https://www.linkedin.com/myname"
+            href="https://www.linkedin.com/in/kummitha-venkatakotireddy-413510241"
             target="_blank"
             rel="noopener noreferrer"
             sx={{
@@ -82,14 +88,14 @@ export const Contact = () => {
               letterSpacing: "1.5px",
             }}
           >
-            linkedin.com/myname
+            linkedin.com/kummitha venkatakotireddy
           </Link>
         </Stack>
 
         <Stack direction="row" alignItems="center" spacing={3} component="li">
           <img src={githubIcon} alt="Github icon" />
           <Link
-            href="https://www.github.com/myname"
+            href="https://www.github.com/19kummitha"
             target="_blank"
             rel="noopener noreferrer"
             sx={{
@@ -100,7 +106,7 @@ export const Contact = () => {
               letterSpacing: "1.5px",
             }}
           >
-            github.com/myname
+            github.com/19kummitha
           </Link>
         </Stack>
       </Stack>

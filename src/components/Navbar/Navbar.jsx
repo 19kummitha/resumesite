@@ -6,8 +6,7 @@ const navImages = import.meta.glob("../../assets/nav/*", {
   eager: true,
   as: "url",
 });
-const getNavImage = (imageName) =>
-  navImages[`../../assets/nav/${imageName}`];
+const getNavImage = (imageName) => navImages[`../../assets/nav/${imageName}`];
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,6 +17,8 @@ export const Navbar = () => {
     { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
     { label: "Contact", href: "#contact" },
+    { label: "Certifications", href: "#certifications" },
+    { label: "Education", href: "#education" },
   ];
 
   return (

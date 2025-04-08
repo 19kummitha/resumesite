@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Typography, Button, useMediaQuery } from "@mui/material";
-import HeroImage from "../../assets/hero/heroImage.png";
+import HeroImage1 from "../../assets/hero/heroImage1.png";
 
 export const Hero = () => {
   const isMobile = useMediaQuery("(max-width:830px)");
@@ -36,12 +36,13 @@ export const Hero = () => {
             fontWeight: 900,
             mb: "33px",
             fontFamily: "var(--font-roboto)",
-            background: "linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%)",
+            background:
+              "linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%)",
             WebkitTextFillColor: "transparent",
             WebkitBackgroundClip: "text",
           }}
         >
-          Hi, I'm Ada
+          Hi, I'm Venkata Koti Reddy K
         </Typography>
 
         <Typography
@@ -52,12 +53,12 @@ export const Hero = () => {
             textAlign: isMobile ? "center" : "left",
           }}
         >
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          I'm a full-stack developer with 9 months of experience using React and
+          dotnet.
         </Typography>
 
         <Button
-          href="mailto:myemail@email.com"
+          href="mailto:venkatakoti18@gmail.com"
           sx={{
             textTransform: "none",
             backgroundColor: "var(--color-primary)",
@@ -78,15 +79,28 @@ export const Hero = () => {
 
       {/* Right Floating Image */}
       <Box
-        component="img"
-        src={HeroImage}
-        alt="Hero image of me"
         sx={{
-          width: "50%",
+          width: "250px", // or use % if you prefer responsiveness
+          height: "250px",
+          borderRadius: "50%",
+          overflow: "hidden",
           zIndex: 1,
           animation: "floating 3s ease-in-out infinite",
+          border: "4px solid var(--color-secondary)", // optional
+          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
         }}
-      />
+      >
+        <Box
+          component="img"
+          src={HeroImage1}
+          alt="Hero image of me"
+          sx={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+        />
+      </Box>
 
       {/* Top Blur */}
       <Box

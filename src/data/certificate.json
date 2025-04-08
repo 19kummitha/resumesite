@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Agile",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "agile.pdf"
+  },
+  {
+    "title": "Agile Estimation",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "AgileEstimation.pdf"
+  },
+  {
+    "title": "scrum",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "scrum1.pdf"
+  },
+  {
+    "title": "Dotnet With Azure",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "dotNetWithAzure.pdf"
+  },
+  {
+    "title": "CleanCode C# Code",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "CleanCode.pdf"
+  },
+  {
+    "title": "Devops basics",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "DevOps.pdf"
+  },
+  {
+    "title": "PowerBI",
+    "issuer": "Udemy",
+    "year": "2025",
+    "pdf": "PowerBI.pdf"
+  },
+  {
+    "title": "Azure Devops",
+    "issuer": "Udemy",
+    "year": "2025",
+    "pdf": "AzureDevops.pdf"
+  },
+  {
+    "title": "SignalR in dotnet",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "SignalR.pdf"
+  },
+  {
+    "title": "SnowFlake",
+    "issuer": "Udemy",
+    "year": "2024",
+    "pdf": "Snowflake.pdf"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "degree": "B.E. in Computer Science and Engineering",
+    "institution": "Saveetha School Of Engineering, Chennai",
+    "year": "2020 - 2024",
+    "details": "Graduated with distinction. Scored 9.12 CGPA"
+  },
+  {
+    "degree": "Intemediate",
+    "institution": "Sri Chaitanya Junior College, Vijayawada",
+    "year": "2018 - 2020",
+    "details": "Major in MPC. Scored 95.4%."
+  },
+  {
+    "degree": "10th",
+    "institution": "Sri Chaitanya High School, Vijayawada",
+    "year": "2017 - 2018",
+    "details": "Scored 10 CGPA."
+  }
+]

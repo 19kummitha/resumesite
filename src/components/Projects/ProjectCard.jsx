@@ -12,9 +12,12 @@ import {
   CardActionArea,
   Box,
 } from "@mui/material";
-import community from "../../assets/projects/community.png";
-import ecommerce from "../../assets/projects/ecommerce.png";
-import loan from "../../assets/projects/loan.png";
+
+// Dynamically import all .png images in the projects folder
+const images = import.meta.glob("../../assets/projects/*.png", {
+  eager: true,
+  import: "default",
+});
 
 export const ProjectCard = ({
   project: { title, description, skills, demo, source, imageSrc },
@@ -25,24 +28,16 @@ export const ProjectCard = ({
     setExpanded((prev) => !prev);
   };
 
-  const getImageUrl = (image) => {
-    switch (image) {
-      case "community.png":
-        return community;
-      case "ecommerce.png":
-        return ecommerce;
-      case "loan.png":
-        return loan;
-      default:
-        return community;
-    }
+  const getImageUrl = (imageName) => {
+    const path = `../../assets/projects/${imageName}`;
+    return images[path] || images["../../assets/projects/community.png"];
   };
 
   return (
     <Card
       sx={{
         width: 345,
-        height: 450, 
+        height: 450,
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
@@ -63,12 +58,7 @@ export const ProjectCard = ({
 
         <CardContent sx={{ flexGrow: 1 }}>
           <Box sx={{ minHeight: 50 }}>
-            <Typography
-              variant="h6"
-              fontWeight={700}
-              noWrap
-              title={title}
-            >
+            <Typography variant="h6" fontWeight={700} noWrap title={title}>
               {title}
             </Typography>
           </Box>

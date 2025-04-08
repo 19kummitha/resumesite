@@ -8,6 +8,8 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import { Certifications } from "./components/Certifications/Certifications";
+import { Education } from "./components/Education/Education";
 
 // Optional: Custom theme (or use default)
 const theme = createTheme({
@@ -39,6 +41,8 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        <Certifications />
+        <Education />
         <Contact />
       </Box>
     </ThemeProvider>

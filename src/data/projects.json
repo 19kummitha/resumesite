@@ -3,40 +3,40 @@
     "title": "Community Communication website for a Residency",
     "imageSrc": "community.png",
     "description": "The Community Communication in a residency is most important for the residents and admins of the residency. All the community problems such as residents complaints, request services, events, bill payments, etc. These features are included in the application.eather ForeCast Api is used to display the current weather situation.",
-    "skills": ["Angular", "Asp.Net core", "C#","SQL"],
+    "skills": ["Angular", "Asp.Net core", "C#", "SQL"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/19kummitha/capstone"
   },
   {
     "title": "Re-Store An E-Commerce Platform",
     "imageSrc": "ecommerce.png",
     "description": "Re-Store is a full-stack web application designed for E-Commerce application.It allows users to add products to cart and place a order. The project follows modern development practices using React (Vite) for the frontend and .NET 8 for the backend, with React-Redux for state-management and used stripe for payements.",
-    "skills": ["React", "Express", "Node", "Sass"],
+    "skills": ["React", "Asp.Net core", "C#", "Sqlite"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/19kummitha/Re-Store"
   },
   {
     "title": "Loan Approval Prediction Using Machine Learning",
     "imageSrc": "loan.png",
     "description": "The Loan approval prediction can be done by using various machine algorithms like Gaussian Naive Bayes, Random Forest, Decision Tree, KNN, Logistic Regression in which Gaussian Naive Bayes got superior Accuracy.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["Python", "Machine Learning"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/19kummitha/FinalYearCoreProject"
   },
   {
     "title": "Re-Activities An Event Management System",
-    "imageSrc": "loan.png",
+    "imageSrc": "reactivities.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["React", "Asp.Net core", "C#", "Sqlite"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/19kummitha/ReActivities"
   },
   {
     "title": "My Portfolio ",
-    "imageSrc": "loan.png",
+    "imageSrc": "portfolio.png",
     "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["React", "HTML", "CSS"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/19kummitha/resumesite"
   }
 ]

@@ -1,11 +1,40 @@
 import React from "react";
-import { Box, Typography, Avatar, Paper, Stack, useMediaQuery } from "@mui/material";
-import aboutImage from "../../assets/about/aboutImage.png";
+import {
+  Box,
+  Typography,
+  Avatar,
+  Paper,
+  Stack,
+  useMediaQuery,
+} from "@mui/material";
 import cursorIcon from "../../assets/about/cursorIcon.png";
 import serverIcon from "../../assets/about/serverIcon.png";
 
 export const About = () => {
   const isMobile = useMediaQuery("(max-width:830px)");
+
+  const items = [
+    {
+      icon: cursorIcon,
+      title: "Frontend Developer",
+      desc: "I specialize in building responsive and optimized user interfaces using modern frameworks like React.js and MUI.",
+    },
+    {
+      icon: serverIcon,
+      title: "Backend Developer",
+      desc: "I create efficient, secure, and scalable APIs and services with Node.js and .NET, focusing on performance and reliability.",
+    },
+    {
+      icon: cursorIcon,
+      title: "Fullstack Developer",
+      desc: "From UI/UX to database architecture, I build complete web applications that integrate both frontend and backend technologies seamlessly.",
+    },
+    {
+      icon: cursorIcon,
+      title: "Subject Matter Expert in Mathematics -Chegg",
+      desc: "Worked as a Subject Matter Expert in Mathematics at Chegg for 6 months. This role strengthened my analytical thinking and problem-solving approach — skills I now apply in my software development journey.",
+    },
+  ];
 
   return (
     <Box
@@ -15,9 +44,9 @@ export const About = () => {
         position: "relative",
         bgcolor: "rgba(12, 12, 12, 0.6)",
         borderRadius: "15px",
-        p: isMobile ? 2 : 9,
+        p: isMobile ? 3 : 6,
         mt: 16,
-        mx: isMobile ? 0 : "10%",
+        mx: isMobile ? 2 : "10%",
         zIndex: 1,
       }}
     >
@@ -26,74 +55,51 @@ export const About = () => {
         sx={{
           color: "white",
           fontWeight: 700,
-          letterSpacing: "1.75px",
+          letterSpacing: "1.5px",
           textTransform: "uppercase",
-          mb: 4,
+          mb: 6,
+          textAlign: "center",
         }}
       >
-        About
+        About Me
       </Typography>
 
-      <Box
-        display="flex"
-        flexDirection={isMobile ? "column" : "row"}
-        alignItems="center"
-        gap={4}
-      >
-        {!isMobile && (
-          <Box
-            component="img"
-            src={aboutImage}
-            alt="Me sitting with a laptop"
-            sx={{ width: "35%" }}
-          />
-        )}
-
-        <Stack spacing={5}>
-          {[
-            {
-              icon: cursorIcon,
-              title: "Frontend Developer",
-              desc: "I'm a frontend developer with experience in building responsive and optimized sites",
-            },
-            {
-              icon: serverIcon,
-              title: "Backend Developer",
-              desc: "I have experience developing fast and optimised back-end systems and APIs",
-            },
-            {
-              icon: cursorIcon,
-              title: "UI Designer",
-              desc: "I have designed multiple landing pages and have created design systems as well",
-            },
-          ].map((item, index) => (
-            <Paper
-              key={index}
-              elevation={3}
-              sx={{
-                display: "flex",
-                alignItems: "center",
-                gap: 2,
-                p: 3,
-                borderRadius: 3,
-                backgroundImage: "linear-gradient(90deg, rgba(165,215,232,0.42) 0%, rgba(255,255,255,0) 100%)",
-                transition: "background-size 0.4s",
-                "&:hover": {
-                  backgroundSize: "100% 100%",
-                },
-              }}
-            >
-              <Avatar src={item.icon} alt={`${item.title} icon`} sx={{ width: 56, height: 56 }} />
-              <Box>
-                <Typography variant="h6" sx={{ fontSize: 25, fontWeight: 600 }}>
-                  {item.title}
-                </Typography>
-                <Typography sx={{ fontSize: 25 }}>{item.desc}</Typography>
-              </Box>
-            </Paper>
-          ))}
-        </Stack>
-      </Box>
+      <Stack spacing={4}>
+        {items.map((item, index) => (
+          <Paper
+            key={index}
+            elevation={4}
+            sx={{
+              display: "flex",
+              flexDirection: isMobile ? "column" : "row",
+              alignItems: "center",
+              gap: 3,
+              p: 4,
+              borderRadius: 4,
+              background:
+                "linear-gradient(135deg, rgba(87,108,188,0.4), rgba(19,42,83,0.4))",
+              color: "white",
+              backdropFilter: "blur(6px)",
+              transition: "transform 0.3s",
+              "&:hover": {
+                transform: "translateY(-5px)",
+              },
+            }}
+          >
+            <Avatar
+              src={item.icon}
+              alt={`${item.title} icon`}
+              sx={{ width: 64, height: 64 }}
+            />
+            <Box>
+              <Typography variant="h6" sx={{ fontSize: 22, fontWeight: 600 }}>
+                {item.title}
+              </Typography>
+              <Typography sx={{ fontSize: 16, mt: 1 }}>{item.desc}</Typography>
+            </Box>
+          </Paper>
+        ))}
+      </Stack>
     </Box>
   );
 };

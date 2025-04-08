@@ -12,19 +12,27 @@
     "imageSrc": "react.png"
   },
   {
-    "title": "Node",
-    "imageSrc": "node.png"
-  },
-  {
-    "title": "GraphQL",
-    "imageSrc": "graphql.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "mongodb.png"
-  },
-  {
     "title": "Figma",
     "imageSrc": "figma.png"
+  },
+  {
+    "title": "ASP.Net",
+    "imageSrc": "aspdotnet.png"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "figma.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "python.png"
+  },
+  {
+    "title": "Angular",
+    "imageSrc": "angular.png"
+  },
+  {
+    "title": "C#",
+    "imageSrc": "csharp.png"
   }
 ]
