@@ -20,7 +20,7 @@ const images = import.meta.glob("../../assets/projects/*.png", {
 });
 
 export const ProjectCard = ({
-  project: { title, description, skills, demo, source, imageSrc },
+  project: { title, description, skills, source, imageSrc },
 }) => {
   const [expanded, setExpanded] = useState(false);
 
@@ -91,15 +91,6 @@ export const ProjectCard = ({
       </CardActionArea>
 
       <CardActions sx={{ justifyContent: "space-around", pb: 2 }}>
-        <Button
-          variant="contained"
-          size="small"
-          href={demo}
-          target="_blank"
-          sx={{ borderRadius: 5, textTransform: "none" }}
-        >
-          Demo
-        </Button>
         <Button
           variant="contained"
           size="small"

@@ -77,31 +77,6 @@ export const Hero = () => {
         </Button>
       </Box>
 
-      {/* Right Floating Image */}
-      <Box
-        sx={{
-          width: "250px", // or use % if you prefer responsiveness
-          height: "250px",
-          borderRadius: "50%",
-          overflow: "hidden",
-          zIndex: 1,
-          animation: "floating 3s ease-in-out infinite",
-          border: "4px solid var(--color-secondary)", // optional
-          boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
-        }}
-      >
-        <Box
-          component="img"
-          src={HeroImage1}
-          alt="Hero image of me"
-          sx={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-          }}
-        />
-      </Box>
-
       {/* Top Blur */}
       <Box
         sx={{

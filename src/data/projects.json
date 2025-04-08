@@ -26,7 +26,7 @@
   {
     "title": "Re-Activities An Event Management System",
     "imageSrc": "reactivities.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "Reactivities is a full-stack web application built with .NET 8 (Web API) for the backend and React.js for the frontend. It serves as a social-style platform where users can create, update, and attend activities or events. The project emphasizes clean architecture using CQRS with MediatR, Entity Framework Core, JWT authentication, and SignalR for real-time communication.",
     "skills": ["React", "Asp.Net core", "C#", "Sqlite"],
     "demo": "https://www.example.com",
     "source": "https://github.com/19kummitha/ReActivities"
@@ -34,7 +34,7 @@
   {
     "title": "My Portfolio ",
     "imageSrc": "portfolio.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "The personal portfolio website showcasing my skills, projects, and certifications. Built with React.js and MUI for a modern, responsive design.",
     "skills": ["React", "HTML", "CSS"],
     "demo": "https://www.example.com",
     "source": "https://github.com/19kummitha/resumesite"

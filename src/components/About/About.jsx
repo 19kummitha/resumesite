@@ -22,7 +22,7 @@ export const About = () => {
     {
       icon: serverIcon,
       title: "Backend Developer",
-      desc: "I create efficient, secure, and scalable APIs and services with Node.js and .NET, focusing on performance and reliability.",
+      desc: "I create efficient, secure, and scalable APIs and services with .NET, focusing on performance and reliability.",
     },
     {
       icon: cursorIcon,

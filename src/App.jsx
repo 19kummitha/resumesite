@@ -11,7 +11,6 @@ import { Projects } from "./components/Projects/Projects";
 import { Certifications } from "./components/Certifications/Certifications";
 import { Education } from "./components/Education/Education";
 
-// Optional: Custom theme (or use default)
 const theme = createTheme({
   palette: {
     mode: "dark",

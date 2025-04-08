@@ -1,21 +1,9 @@
 [
   {
-    "title": "Agile",
+    "title": "Azure Devops",
     "issuer": "Udemy",
-    "year": "2024",
-    "pdf": "agile.pdf"
-  },
-  {
-    "title": "Agile Estimation",
-    "issuer": "Udemy",
-    "year": "2024",
-    "pdf": "AgileEstimation.pdf"
-  },
-  {
-    "title": "scrum",
-    "issuer": "Udemy",
-    "year": "2024",
-    "pdf": "scrum1.pdf"
+    "year": "2025",
+    "pdf": "AzureDevops.pdf"
   },
   {
     "title": "Dotnet With Azure",
@@ -40,12 +28,6 @@
     "issuer": "Udemy",
     "year": "2025",
     "pdf": "PowerBI.pdf"
-  },
-  {
-    "title": "Azure Devops",
-    "issuer": "Udemy",
-    "year": "2025",
-    "pdf": "AzureDevops.pdf"
   },
   {
     "title": "SignalR in dotnet",
