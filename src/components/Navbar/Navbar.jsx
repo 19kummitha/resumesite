@@ -105,7 +105,7 @@ export const Navbar = () => {
               component="li"
               sx={{
                 "& a": {
-                  fontSize: "25px",
+                  fontSize: "20px",
                   color: "var(--color-text)",
                   textDecoration: "none",
                 },
