@@ -10,6 +10,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
 import { Certifications } from "./components/Certifications/Certifications";
 import { Education } from "./components/Education/Education";
+import { ContactForm } from "./components/Contact/ContactForm";
 
 const theme = createTheme({
   palette: {
@@ -42,6 +43,7 @@ function App() {
         <Projects />
         <Certifications />
         <Education />
+        <ContactForm />
         <Contact />
       </Box>
     </ThemeProvider>
